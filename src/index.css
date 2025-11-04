@@ -52,4 +52,8 @@ main {
     img {
         width: 80px;
     }
+
+    .locator {
+        width: 60px;
+    }
 }

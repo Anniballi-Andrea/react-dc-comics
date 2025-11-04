@@ -14,7 +14,7 @@ export default function Main() {
         <main>
             <div className="container_main">
                 <div className="container">
-                    <p><h3> --<i class="bi bi-chevron-right"></i>Content goes here<i class="bi bi-chevron-left"></i>--</h3> </p>
+                    <h3> --<i className="bi bi-chevron-right"></i>Content goes here<i className="bi bi-chevron-left"></i>--</h3>
                 </div>
             </div>
             <div className="container_main bg-primary">
@@ -23,16 +23,16 @@ export default function Main() {
                         <img src={buyComix} alt="" /> DIGITAL COMICS
                     </a>
                     <a href="">
-                        <img src={merc} alt="" /> DIGITAL COMICS
+                        <img src={merc} alt="" /> DC MERCHANDISE
                     </a>
                     <a href="">
-                        <img src={subscription} alt="" /> DIGITAL COMICS
+                        <img src={subscription} alt="" /> SUBSCRIPTION
                     </a>
                     <a href="">
-                        <img src={locator} alt="" /> DIGITAL COMICS
+                        <img className="locator" src={locator} alt="" /> COMIC SHOP LOCATOR
                     </a>
                     <a href="">
-                        <img className="visa" src={powerVisa} alt="" /> DIGITAL COMICS
+                        <img className="visa" src={powerVisa} alt="" /> DC POWER VISA
                     </a>
 
                 </div>
