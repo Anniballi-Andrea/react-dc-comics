@@ -1,5 +1,9 @@
 @import url(bootstrap);
+@import url(bootstrap-icons);
 
+* {
+    font-family: Open Sans;
+}
 
 header {
     background-color: white;
@@ -24,11 +28,19 @@ header {
 
 
     .border_hover:hover {
-        border-bottom: 1px solid #0c7cec;
+        border-bottom: 3px solid #0c7cec;
 
         a {
             color: #0c7cec !important;
 
         }
+    }
+}
+
+main {
+    .container_main {
+        background-color: #1c1c1c;
+        color: white;
+        padding: 3rem;
     }
 }
