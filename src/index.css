@@ -57,3 +57,41 @@ main {
         width: 60px;
     }
 }
+
+.footer_bg {
+    background-image: url(./assets/img/footer-bg.jpg);
+
+    .link {
+        padding-top: 1.5rem;
+        padding-bottom: 3rem;
+    }
+
+
+    ul {
+        list-style: none;
+
+        li {
+
+            color: white;
+
+            h4 {
+                padding-top: 1.5rem;
+            }
+
+            a {
+                text-decoration: none;
+                color: #636f6e;
+            }
+
+
+        }
+    }
+
+    .dc_bg {
+        background-image: url(./assets/img/dc-logo-bg.png);
+        background-size: cover;
+        background-position: center;
+        height: 26.5rem;
+        width: 35rem;
+    }
+}
