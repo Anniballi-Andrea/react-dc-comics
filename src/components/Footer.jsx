@@ -1,10 +1,16 @@
+
+import facebook from "../assets/img/footer-facebook.png"
+import twitter from "../assets/img/footer-twitter.png"
+import youtube from "../assets/img/footer-youtube.png"
+import pinterest from "../assets/img/footer-pinterest.png"
+import periscope from "../assets/img/footer-periscope.png"
 export default function Footer() {
 
 
 
     return (
         <footer>
-            <div className="footer_bg">
+            <div className="footer_bg_img">
                 <div className="container d-flex justify-content-between">
                     <div className="d-flex">
                         <div className="link">
@@ -57,6 +63,21 @@ export default function Footer() {
 
                 </div>
 
+            </div>
+            <div className="footer_bg">
+                <div className="container d-flex justify-content-between follow">
+                    <button>SING-UP NOW!</button>
+                    <div className="social d-flex align-items-center ">
+                        <p><strong>FOLLOW US</strong></p>
+                        <img src={facebook} alt="" />
+                        <img src={twitter} alt="" />
+                        <img src={youtube} alt="" />
+                        <img src={pinterest} alt="" />
+                        <img src={periscope} alt="" />
+
+
+                    </div>
+                </div>
             </div>
 
         </footer>

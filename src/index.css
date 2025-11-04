@@ -58,7 +58,7 @@ main {
     }
 }
 
-.footer_bg {
+.footer_bg_img {
     background-image: url(./assets/img/footer-bg.jpg);
 
     .link {
@@ -93,5 +93,31 @@ main {
         background-position: center;
         height: 26.5rem;
         width: 35rem;
+    }
+}
+
+.footer_bg {
+    background-color: #303030;
+}
+
+.follow {
+    padding: 1rem 0;
+
+    button {
+        color: white;
+        border: 1px solid #0c7cec;
+        background-color: #303030;
+    }
+
+    img {
+        padding: 0 0.5rem;
+        width: 50px;
+    }
+
+    p {
+        padding-top: 1rem;
+        padding-right: 1rem;
+        color: #0c7cec;
+        font-size: small;
     }
 }
