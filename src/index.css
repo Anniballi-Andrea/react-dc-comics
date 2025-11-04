@@ -42,5 +42,14 @@ main {
         background-color: #1c1c1c;
         color: white;
         padding: 3rem;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    img {
+        width: 80px;
     }
 }

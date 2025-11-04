@@ -8,7 +8,9 @@ export default function Header() {
         <header>
             <nav className="navbar navbar-expand-lg p-0">
                 <div className="container">
-                    <a className="navbar-brand" href="#"><img src={logo} alt="" /></a>
+                    <a className="navbar-brand" href="#">
+                        <img src={logo} alt="" />
+                    </a>
 
 
                     <div className="d-flex " role="search">
