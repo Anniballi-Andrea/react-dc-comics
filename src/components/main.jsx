@@ -5,6 +5,7 @@ import merc from "../assets/img/buy-comics-merchandise.png"
 import subscription from "../assets/img/buy-comics-subscriptions.png"
 import locator from "../assets/img/buy-comics-shop-locator.png"
 import powerVisa from "../assets/img/buy-dc-power-visa.svg"
+import Comics from "./Comics"
 
 export default function Main() {
 
@@ -12,12 +13,25 @@ export default function Main() {
 
     return (
         <main>
-            <div className="container_main">
-                <div className="container">
-                    <h3> --<i className="bi bi-chevron-right"></i>Content goes here<i className="bi bi-chevron-left"></i>--</h3>
+            <div className="container_main bg_jumbo">
+                <div className="container ">
+                    <span className="current_series bg-primary">
+                        <h2><strong>CURRENT SERIES</strong></h2>
+                    </span>
+
                 </div>
             </div>
-            <div className="container_main bg-primary">
+            <div className="container_main bg_black">
+                <div className="container">
+                    <div className="row">
+                        <Comics />
+                        <div className="col-12 d-flex justify-content-center"><button>LOAD MORE</button></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="container-fluid bg_blue">
                 <div className="container d-flex justify-content-between align-items-center">
                     <a href="">
                         <img src={buyComix} alt="" /> DIGITAL COMICS

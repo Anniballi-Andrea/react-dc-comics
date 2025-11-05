@@ -2,7 +2,7 @@
 @import url(bootstrap-icons);
 
 * {
-    font-family: Open Sans;
+    font-family: "Open Sans";
 }
 
 header {
@@ -39,9 +39,10 @@ header {
 
 main {
     .container_main {
-        background-color: #1c1c1c;
+
         color: white;
-        padding: 3rem;
+        width: 100%;
+
 
         a {
             color: white;
@@ -55,6 +56,17 @@ main {
 
     .locator {
         width: 60px;
+    }
+
+    .bg_blue {
+        background-color: #0282f9;
+        color: white;
+        padding: 2rem 0;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
     }
 }
 
@@ -120,4 +132,47 @@ main {
         color: #0c7cec;
         font-size: small;
     }
+}
+
+.bg_jumbo {
+    background-image: url(./assets/img/jumbotron.jpg);
+    background-size: cover;
+    min-height: 525px;
+
+    .container {
+        position: relative;
+
+        span {
+            position: absolute;
+            padding: 1rem;
+            top: 490px;
+        }
+    }
+}
+
+.bg_black {
+    background-color: #1c1c1c;
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+
+    img {
+
+        width: 100%;
+        object-fit: cover;
+
+
+    }
+
+    button {
+        background-color: #0c7cec;
+        color: white;
+        padding: 0.5rem 2rem;
+        border: 0;
+    }
+}
+
+.card {
+    border: 0;
+    height: 200px;
+    overflow: hidden;
 }
