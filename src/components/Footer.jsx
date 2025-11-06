@@ -4,9 +4,115 @@ import twitter from "../assets/img/footer-twitter.png"
 import youtube from "../assets/img/footer-youtube.png"
 import pinterest from "../assets/img/footer-pinterest.png"
 import periscope from "../assets/img/footer-periscope.png"
+import TitleList from "./TitleList"
+
 export default function Footer() {
 
+    const footerElement = [
+        {
+            title: "DC COMICS",
+            content: [{
+                name: "Characters",
+                href: "#",
+            },
+            {
+                name: "Movies",
+                href: "#"
+            },
+            {
+                name: "TV",
+                href: "#"
+            },
+            {
+                name: "Games",
+                href: "#"
+            },
+            {
+                name: "Videos",
+                href: "#"
+            },
+            {
+                name: "Nevs",
+                href: "#"
+            },
+            ]
 
+        },
+        {
+            title: 'SHOP',
+            content: [{
+                name: "Shop DC",
+                href: "#",
+            },
+            {
+                name: "Shop DC Collectibles",
+                href: "#",
+            }]
+        },
+        {
+            title: 'DC',
+            content: [{
+                name: 'Terms of us',
+                href: '#'
+            },
+            {
+                name: 'Privacy policy (New)',
+                href: '#'
+            },
+            {
+                name: 'Jobs',
+                href: '#'
+            },
+            {
+                name: 'Talent Workshops',
+                href: '#'
+            },
+            {
+                name: 'CPSC Certificaties',
+                href: '#'
+            },
+            {
+                name: 'Ratings',
+                href: '#'
+            },
+            {
+                name: 'Shop Help',
+                href: '#'
+            },
+            {
+                name: 'Contact Us',
+                href: '#'
+            }]
+        },
+        {
+            title: 'SITES',
+            content: [
+                {
+                    name: 'DC',
+                    href: '#'
+                },
+                {
+                    name: 'MAD Magazine',
+                    href: '#'
+                },
+                {
+                    name: 'DC Kids',
+                    href: '#'
+                },
+                {
+                    name: 'DC Universe',
+                    href: '#'
+                },
+                {
+                    name: 'DC Power Visa',
+                    href: '#'
+                },
+
+            ]
+        }
+
+
+    ]
 
     return (
         <footer>
@@ -41,7 +147,7 @@ export default function Footer() {
                                 <li><a href="">CPSC Certificaties</a></li>
                                 <li><a href="">Ratings</a></li>
                                 <li><a href="">Shop Help</a></li>
-                                <li><a href="">Contact UsS</a></li>
+                                <li><a href="">Contact Us</a></li>
                             </ul>
                         </div>
                         <div className="link">
