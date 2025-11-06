@@ -171,7 +171,7 @@ export default function Footer() {
             </div>
             <div className="footer_bg">
                 <div className="container d-flex justify-content-between follow">
-                    <button>SING-UP NOW!</button>
+                    <button>SIGN-UP NOW!</button>
                     <div className="social d-flex align-items-center ">
                         <p><strong>FOLLOW US</strong></p>
                         <img src={facebook} alt="" />
