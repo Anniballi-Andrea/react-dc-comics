@@ -2,6 +2,11 @@
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Main from "./components/main"
+import buyComix from "./assets/img/buy-comics-digital-comics.png"
+import merc from "./assets/img/buy-comics-merchandise.png"
+import subscription from "./assets/img/buy-comics-subscriptions.png"
+import locator from "./assets/img/buy-comics-shop-locator.png"
+import powerVisa from "./assets/img/buy-dc-power-visa.svg"
 
 function App() {
 
@@ -160,12 +165,51 @@ function App() {
     },
   ];
 
+  const blueBannerItems =
+    [
+      {
+        id: 1,
+        name: buyComix,
+        src: '../assets/img/buy-comics-digital-comics.png',
+        href: '#',
+        description: 'DIGITAL COMICS'
+      },
+      {
+        id: 2,
+        name: merc,
+        src: '../assets/img/buy-comics-merchandise.png',
+        href: '#',
+        description: 'DC MERCHANDISE'
+      },
+      {
+        id: 3,
+        name: subscription,
+        src: '../assets/img/buy-comics-subscriptions.png',
+        href: '#',
+        description: 'SUBSCRIPTION'
+      },
+      {
+        id: 4,
+        name: locator,
+        src: '../assets/img/buy-comics-shop-locator.png',
+        href: '#',
+        description: ' COMIC SHOP LOCATOR'
+      },
+      {
+        id: 5,
+        name: powerVisa,
+        src: '../assets/img/buy-dc-power-visa.svg',
+        href: '#',
+        description: ' DC POWER VISA'
+      },
+    ]
+
 
   return (
     <>
 
       <Header />
-      <Main comicsArray={comics} />
+      <Main comicsArray={comics} blueBannerItems={blueBannerItems} />
       <Footer />
 
 

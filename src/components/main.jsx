@@ -7,7 +7,7 @@ import BlueBanner from "./BlueBanner"
 import ComicsSection from "./ComicsSection"
 import Jumbo from "./jumbo"
 
-export default function Main({ comicsArray }) {
+export default function Main({ comicsArray, blueBannerItems }) {
 
 
 
@@ -18,7 +18,7 @@ export default function Main({ comicsArray }) {
             <Jumbo />
             <ComicsSection comicsArray={comicsArray} />
 
-            <BlueBanner />
+            <BlueBanner blueBannerItems={blueBannerItems} />
         </main>
     )
 }
