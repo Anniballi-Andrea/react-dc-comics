@@ -183,7 +183,7 @@ export default function Main() {
                     <div className="row">
                         {
                             comics.map(comic => (
-                                <Card key={comic.id} thumb={comic.thumb} series={comic.series} />
+                                <Card key={comic.id} thumb={comic.thumb} series={comic.series} alt={comic.title} />
                             ))
                         }
 
