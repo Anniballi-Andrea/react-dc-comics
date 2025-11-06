@@ -5,7 +5,7 @@ import merc from "../assets/img/buy-comics-merchandise.png"
 import subscription from "../assets/img/buy-comics-subscriptions.png"
 import locator from "../assets/img/buy-comics-shop-locator.png"
 import powerVisa from "../assets/img/buy-dc-power-visa.svg"
-import Comics from "./Comics"
+
 import Card from "./card"
 
 export default function Main() {
