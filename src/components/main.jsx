@@ -5,6 +5,7 @@
 
 import BlueBanner from "./BlueBanner"
 import ComicsSection from "./ComicsSection"
+import Jumbo from "./jumbo"
 
 export default function Main({ comicsArray }) {
 
@@ -14,14 +15,7 @@ export default function Main({ comicsArray }) {
 
     return (
         <main>
-            <div className="container_main bg_jumbo">
-                <div className="container ">
-                    <span className="current_series bg-primary">
-                        <h2><strong>CURRENT SERIES</strong></h2>
-                    </span>
-
-                </div>
-            </div>
+            <Jumbo />
             <ComicsSection comicsArray={comicsArray} />
 
             <BlueBanner />
