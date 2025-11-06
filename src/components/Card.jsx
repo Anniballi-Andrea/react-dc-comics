@@ -1,4 +1,4 @@
-export default function Card({ thumb, series }) {
+export default function Card({ thumb, series, alt }) {
 
 
     return (
@@ -6,7 +6,7 @@ export default function Card({ thumb, series }) {
 
         <div className="col-lg-2">
             <div className="card">
-                <img src={thumb} alt="" />
+                <img src={thumb} alt={alt} />
 
             </div>
             <div className="card-body">
